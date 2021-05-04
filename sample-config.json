@@ -1,0 +1,9 @@
+{
+    "send":"email you want to send email from",
+    "recv":"email id you want to recieve an email on",
+    "dist_code":[
+       "603",
+       "581"
+    ],
+    "email_pass":"youremailpassword"
+}
