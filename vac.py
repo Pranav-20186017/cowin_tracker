@@ -13,7 +13,7 @@ def vac_data(district, date_):
     for center in data['centers']:
         if center["fee_type"] == "Paid":
             for session in center["sessions"]:
-                if session["available_capacity"] >0 and session["min_age_limit"] == 18:
+                if session["available_capacity"] > 0 and session["min_age_limit"] == 18:
                     session['name'] = center['name']
                     session['address'] = center['address']
                     session['district_name'] = center['district_name']
